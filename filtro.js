@@ -2,6 +2,7 @@ const botmaquillaje = document.querySelector('#maqui')
 const maquillaje = document.querySelectorAll('#maquillaje')
 const unas = document.querySelector('#unas')
 const botuna = document.querySelector('#unabot')
+const botfiltro = document.querySelector('#filtro')
 
     
     if(botuna) {
@@ -31,5 +32,12 @@ const botuna = document.querySelector('#unabot')
         })
     }) 
 }else {
-    console.log('error')
+    console.log('error') 
 }
+
+botfiltro.addEventListener('click', function() { 
+    botmaquillaje.classList.toggle('hidden')
+    botuna.classList.toggle('hidden')
+
+})
+
