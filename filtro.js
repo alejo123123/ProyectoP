@@ -9,6 +9,7 @@ const botuna = document.querySelector('#unabot')
         botuna.addEventListener('click', function() {
 
     if (maquillaje.length > 0) {
+        unas.classList.remove('hidden')
         maquillaje.forEach(item => {
             item.classList.toggle('hidden')
 
@@ -21,9 +22,13 @@ const botuna = document.querySelector('#unabot')
     }
 
     if (botmaquillaje) {
-
+        
         botmaquillaje.addEventListener('click', function() {
             unas.classList.toggle('hidden')
+            maquillaje.forEach(item => {
+                item.classList.remove('hidden')
+    
+        })
     }) 
 }else {
     console.log('error')
