@@ -7,26 +7,28 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-200">
-    <header class="bg-pink-400 p-2 gap-2 flex flex-col md:bg-purple-300 md:p-9 md:flex-row  md:justify-around md:gap-5">
+    <header class="bg-pink-400 p-2 gap-2 flex flex-col md:bg-purple-300 md:p-9 md:flex-row  md:justify-around md:gap-5 ">
 
-        <h1 class=" mx-auto text-4xl text-center"><a href="main.html">Titulo</a></h1>
+        <h1 class=" mx-auto text-4xl text-center text-black transition duration-300 hover:text-white"><a href="main.html">Titulo</a></h1>
         
         <nav class="  ml-0  text-center text-xl  flex flex-col  gap-4  md:ml-10  md:ml-96  md:flex-row ">
-            <a class="mx-auto md:mr-20" href="main.html">Inicio</a>
-            <a class="mx-auto md:mr-20"  href="index.html">Blog</a>
-            <a class="mx-auto md:mr-20"  href="productos.html">Productos</a>
+            <a class="mx-auto md:mr-20 text-black transition duration-300 hover:text-white" href="main.html">Inicio</a>
+            <a class="mx-auto md:mr-20 text-black transition duration-300 hover:text-white"  href="index.html">Blog</a>
+            <a class="mx-auto md:mr-20 text-black transition duration-300 hover:text-white"  href="productos.html">Productos</a>
         </nav>
         
         </header>
+
         
-        <div class="flex mx-2 flex-col md:flex-row md:mx-56">
+        <div>
+            <div class="bg-purple-300 h-full w-48 fixed top-0 left-0 p-4  hidden md:block "> 
 
-        <h1 class="mt-20 text-center md:text-left text-4xl mr:0 md:mr-96">Nuestros Productos</h1> 
-
-       
-        <h2 class="md:mt-20 mt-2 text-2xl md:ml-auto text-center md:text-right cursor-pointer hidden" id="maqui">Maquillaje</h2>
-        <h2 class="md:mt-20 mt-2 text-2xl md:ml-12  text-center cursor-pointer hidden" id="unabot">uñas</h2>
-        <button id="filtro" class="bg-purple-500 h-1/2 md:mt-20 mt-2 text-center md:text-right p-2 rounded md:ml-auto w-24 md:w-auto mx-auto md:mx-0  transition ease-in-out duration-300 hover:bg-purple-600 ">Filtro</button>
+        <button id="filtro" class="mt-20 text-center text-4xl mx-auto  mt-36">¯\_(ツ)_/¯</button>
+        <h2 class="md:mt-20 mt-2 text-2xl text-center cursor-pointer hidden  " id="maqui">Maquillaje</h2>
+        <h2 class="md:mt-20 mt-2 text-2xl text-center cursor-pointer hidden " id="unabot">uñas</h2>
+        <h2 class="md:mt-20 mt-2 text-2xl text-center cursor-pointer hidden " id="labot">labial</h2>
+    </div>
+        <h1 class="mt-20 text-center md:text-left text-4xl mr-0 md:mr-96 ml-0 md:ml-56">Nuestros Productos</h1> 
 
 
     </div>
@@ -49,7 +51,7 @@
                     <p class="font-bold text-xl mt-3">$45.300</p>
                     </a>
             </div>
-            <div id="maquillaje">
+            <div id="labial">
                 <a href="#">
                     <img class="mx-auto h-56" src="img/productos/maquillaje-de-labios.png" alt="mqui">
                     <h2 class="mt-3 text-2xl">Labial</h2>
@@ -76,7 +78,7 @@
                     <p class="font-bold text-xl mt-3">$45.300</p>
                     </a></h2>
             </div>
-            <div id="maquillaje">
+            <div id="labial">
                 <a href="#">
                     <img class="mx-auto h-56 " src="img/productos/pintalabios-liquido.png" alt="eco">
                     <h2 class="mt-3 text-2xl">Labial</h2>
