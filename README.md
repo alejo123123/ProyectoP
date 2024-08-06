@@ -1,5 +1,7 @@
 La idea es hacer un foro sobre belleza y consejos utilizando tailwind
 
+D&C help's
+
 en la parte de main me gustaria hacer que al lado izquierdo salgan algunas publicaciones del blog y algunos productos
 
 en la parte de productos estaria bueno hacer un filtro
